@@ -1,0 +1,30 @@
+.recipe {
+  margin: 20px;
+  background: #f4f3f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 40%;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.recipe a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to left, #a4a684 0%, #585a4d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
